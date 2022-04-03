@@ -1,0 +1,55 @@
+@media (max-width:900px) {
+    .checkbtn {
+        display: block;
+    }
+    
+    
+    label.logo {
+        padding: 0 20px;
+    }
+
+
+    main {
+        filter: none;
+    }
+   
+   
+    .menu-centro {
+        padding: 30px;
+        text-align: center;
+    }
+    .menu-centro p {
+        font-style: oblique;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #002e13;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    a:hover,a.active {
+        background: none; 
+        color: #049e32;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+}
